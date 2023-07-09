@@ -1,0 +1,28 @@
+@media (max-width: 1450px) {
+    nav ul {
+        flex-wrap: wrap;
+    }
+    .hero-container {
+        padding: 15px;
+    }
+    .custom-container {
+        padding: 0 15px;
+    }
+    
+}
+@media (max-width: 995px) {
+    header {
+        padding: 35px 20px
+    }
+    nav ul {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .palace-desc {
+        display: block;
+    }
+    .subscribe-bar  .col-6{
+        width: 100%;
+    }
+}
