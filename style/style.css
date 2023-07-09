@@ -178,3 +178,41 @@ transition: 1s;
     padding: 22px 46px;
     border:0 ;
  }
+ /*================================== about restoran and inputs ===========================*/
+
+ .about-restoran div{
+     display: flex;
+     gap: 15px  ;
+     align-items: center;
+
+ }
+ .input-bar {
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 15px;
+ }
+ .input-bar input {
+     width: 100%;
+     border: none;
+border-bottom: 2px solid #D0D0D0;
+ }
+ .input-bar textarea {
+     resize: none;
+     width: 100%;
+     border: 2px solid #D0D0D0;
+ }
+.input-bar button {
+    padding: 12px 36px;
+    background-color: #D1A954;
+    border: none;
+    color: #fff;
+}
+/*===================== uderside  ===================================*/
+.underside {
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 0 ;
+}
+.foot-bar {
+    background-color: #f1f1f1;
+}
